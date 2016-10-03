@@ -447,6 +447,22 @@ img::-moz-selection {
   color: white;
   background: transparent;
 }
+
 body {
   webkit-tap-highlight-color: #222222;
+}
+/*hacky css stuff here*/
+
+#logo {
+   width: 40px;
+   text-align: center;
+}
+
+#footerlogo {
+   width: 350px;
+   text-align: center;
+}
+
+#logo img {
+   max-width: 100%;
 }
